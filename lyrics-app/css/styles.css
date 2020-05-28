@@ -1,0 +1,72 @@
+    .navegation {
+        background-color: rgb(17, 188, 194);
+    }
+    
+    .main-title {
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .main {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .line {
+        width: 10%;
+        padding: 2px;
+        background-color: rgb(17, 188, 194);
+        border: none;
+    }
+    
+    .search label {
+        font-weight: bold;
+    }
+    
+    .button {
+        height: 35px;
+        border-radius: 2px;
+        border: 1px solid rgb(22, 168, 173);
+        color: #fff;
+        font-weight: bold;
+        background-color: rgb(17, 188, 194);
+    }
+    
+    .button:hover {
+        background-color: rgb(36, 147, 151);
+    }
+    
+    .footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        padding: 10px;
+        background-color: rgb(31, 157, 161);
+        font-weight: bold;
+    }
+    
+    .footer p {
+        padding-top: 10px;
+    }
+    
+    .error {
+        background-color: rgb(195, 53, 53);
+        color: #fff;
+        border-radius: 2px;
+        border: 1px solid rgb(170, 21, 21);
+        text-align: center;
+        padding: 8px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    #result {
+        margin-bottom: 50px;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .secondary h3 {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+    }
